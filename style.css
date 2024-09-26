@@ -1,0 +1,93 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; 
+    color: #f9f9f9; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contêiner */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000; /* Fundo do contêiner preto */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    text-align: center;
+    color: #ffa500; 
+  }
+  
+  /* Formulário */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444; 
+    color: #f9f9f9; 
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ffa500; 
+    color: black; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ff8c00; 
+  }
+  
+  /* Lista de contatos */
+  .contact-list-container {
+    margin-top: 20px;
+  }
+  
+  #contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contactList li {
+    background-color: #444; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #contactList li .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    background-color: #ffa500; 
+    color: black; 
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .actions button.delete {
+    background-color: #ff4500; 
+  }
+  
+
+  
